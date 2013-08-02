@@ -40,4 +40,4 @@ To file a bug report or feature request, go to https://github.com/psexton/MockOb
 Licensing
 ---------
 
-Licensed under the [BSD 2-Clause license]"http://opensource.org/licenses/BSD-2-Clause". See the LICENSE file in this directory.
+Licensed under the [BSD 2-Clause license](http://opensource.org/licenses/BSD-2-Clause). See the LICENSE file in this directory.
