@@ -20,15 +20,20 @@ The MockObject class has two main features:
 How to Use
 ----------
 
-1. Create a subclass of MockObject.(Let's call it MockFoo.) Add functions to this subclass that match the signatures of the functions in the class you're mocking(RealFoo). Each function in MockFoo will make a call to addToCallStack to record that it's been called, and a call to getReturnValue to find out what it should return.
-2. At runtime, create an instance of MockFoo. Call addReturnValueEntry to add values to the return value lookup table.
-3. Use MockFoo in place of RealFoo.
-4. Inspect the MockFoo.CallStack property to see what methods were called.
+1. Create a subclass of `MockObject`.(Let's call it `MockFoo`.) Add functions to this subclass that match the signatures of the functions in the class you're mocking(`RealFoo`). Each function in `MockFoo` will make a call to `addToCallStack` to record that it's been called, and a call to `getReturnValue` to find out what it should return.
+2. At runtime, create an instance of `MockFoo`. Call `addReturnValueEntry` to add values to the return value lookup table.
+3. Use `MockFoo` in place of `RealFoo`.
+4. Inspect the `MockFoo.CallStack` property to see what methods were called.
 
 Examples
 --------
 
 See the example subdirectory for an example of how this would work.
+
+Requirements
+------------
+
+MockObject will _probably_ run on any version of MATLAB back to R2008a. It certainly won't work on anything older, as it uses classdef-based classes.
 
 Bug Reports And Contributions
 -----------------------------
@@ -40,4 +45,9 @@ To file a bug report or feature request, go to https://github.com/psexton/MockOb
 Licensing
 ---------
 
-Licensed under the [BSD 2-Clause license](http://opensource.org/licenses/BSD-2-Clause). See the LICENSE file in this directory.
+Licensed under the [BSD license](http://opensource.org/licenses/BSD-2-Clause). See the LICENSE file in this directory.
+
+
+Last Updated:
+Paul Sexton
+2013-08-05
