@@ -1,0 +1,15 @@
+MockObject Changelog
+
+Version 1.0.1 (2013-08-05)
+- Tweaking readme so it looks good in Markdown.pl's HTML output, not just in Github's.
+- Adding Changelog.
+- No code changes since 1.0.0.
+
+Version 1.0.0 (2013-08-05)
+- Initial version
+
+NOTE: Version numbers are assigned according to the Semantic Versioning Specification <http://semver.org>
+
+Last Updated:
+Paul Sexton
+2013-08-05
