@@ -4,6 +4,10 @@ classdef MockRPcoX < MockObject
     %   This is to maintain API compatibility with the "real"
     %   RPCO.X ActiveX objects.
     
+    % Copyright (c) 2013 Paul Sexton
+    % Licensed under the BSD license. See the included LICENSE file or 
+    % visit <http://opensource.org/licenses/BSD-2-Clause>.
+    
     properties
         ReturnSuccess
     end

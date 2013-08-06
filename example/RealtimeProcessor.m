@@ -2,6 +2,10 @@ classdef RealtimeProcessor < handle
     % REALTIMEPROCESSOR RPcoX wrapper class
     % Wrapper for RP API, with exceptions and other enhancements
     
+    % Copyright (c) 2013 Paul Sexton
+    % Licensed under the BSD license. See the included LICENSE file or 
+    % visit <http://opensource.org/licenses/BSD-2-Clause>.
+    
     properties
         RPcoX   % TDT driver ActiveX object
         AutoTranspose = true;   % Automatically transpose to&from row vectors

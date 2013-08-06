@@ -3,6 +3,10 @@ classdef MockObject < handle
     %   You probably don't want to instantiate this class directly
     %   It's here so that mock obj classes can inherit from it
     
+    % Copyright (c) 2013 Paul Sexton
+    % Licensed under the BSD license. See the included LICENSE file or 
+    % visit <http://opensource.org/licenses/BSD-2-Clause>.
+    
     properties (SetAccess = protected)
         CallStack % cell array of cell arrays
         DefaultReturnValue

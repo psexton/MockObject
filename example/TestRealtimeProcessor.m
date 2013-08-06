@@ -1,6 +1,10 @@
 classdef TestRealtimeProcessor < TestCase
     %TESTREALTIMEPROCESSOR Unit tests for RealtimeProcessor class
     
+    % Copyright (c) 2013 Paul Sexton
+    % Licensed under the BSD license. See the included LICENSE file or 
+    % visit <http://opensource.org/licenses/BSD-2-Clause>.
+    
     properties
         rp;
     end
