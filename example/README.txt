@@ -12,6 +12,6 @@ MockRPcoX is a subclass of MockObject that I use for testing.
 RealtimeProcessorTest contains xUnit-style tests for the RealtimeProcessor class, using MockRPCoX to simulate a device.
 
 
-Last Updated:
-Paul Sexton
-2013-08-03
+Last Updated:  
+Paul Sexton  
+2013-08-03  

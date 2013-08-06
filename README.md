@@ -39,9 +39,9 @@ MockObject will _probably_ run on any version of MATLAB back to R2008a. It certa
 Bug Reports And Contributions
 -----------------------------
 
-The code for this project is available on GitHub at https://github.com/psexton/MockObject.
+The code for this project [lives at GitHub](https://github.com/psexton/MockObject).
 
-To file a bug report or feature request, go to https://github.com/psexton/MockObject/issues/new.
+To file a bug report or feature request, [create an issue there](https://github.com/psexton/MockObject/issues/new).
 
 Licensing
 ---------
