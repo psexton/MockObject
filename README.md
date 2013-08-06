@@ -14,6 +14,7 @@ Features
 --------
 
 The MockObject class has two main features:
+
 * It maintains a lookup table of function return values: for any function, for a specific function, or for a specific function with specific arguments
 * It maintains a list of what methods were called, along with the arguments used.
 
@@ -48,6 +49,6 @@ Licensing
 Licensed under the [BSD license](http://opensource.org/licenses/BSD-2-Clause). See the LICENSE file in this directory.
 
 
-Last Updated:
-Paul Sexton
+Last Updated:  
+Paul Sexton  
 2013-08-05
