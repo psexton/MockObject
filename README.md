@@ -18,6 +18,11 @@ The MockObject class has two main features:
 * It maintains a lookup table of function return values: for any function, for a specific function, or for a specific function with specific arguments
 * It maintains a list of what methods were called, along with the arguments used.
 
+Installation
+------------
+
+To add MockObject to your MATLAB path, run `onLoad`. To remove it from your path, run `onUnload`.
+
 How to Use
 ----------
 
@@ -34,7 +39,8 @@ See the example subdirectory for an example of how this would work.
 Requirements
 ------------
 
-MockObject will _probably_ run on any version of MATLAB back to R2008a. It certainly won't work on anything older, as it uses classdef-based classes.
+* Supported on Matlab R2012a and newer. (May work on older versions but no guarantees.)
+* [matlab-xunit-4.0.0](https://github.com/psexton/matlab-xuni) if you want to run the unit tests.
 
 Bug Reports And Contributions
 -----------------------------
@@ -51,4 +57,4 @@ Licensed under the [BSD license](http://opensource.org/licenses/BSD-2-Clause). S
 
 Last Updated:  
 Paul Sexton  
-2013-08-05
+2014-10-02

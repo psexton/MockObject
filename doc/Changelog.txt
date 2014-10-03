@@ -1,0 +1,16 @@
+MockObject Changelog
+====================
+
+Version 1.0.1 (2014-10-02)
+- No code changes since 1.0.0
+- Rearranging directory structure
+- Adding Contents.m file
+
+Version 1.0.0 (2013-08-05)
+- Initial version
+
+NOTE: Version numbers are assigned according to the Semantic Versioning Specification <http://semver.org>
+
+Last Updated:  
+Paul Sexton  
+2014-10-02
